@@ -1,0 +1,34 @@
+GET http://localhost:3000/profiles
+
+###
+GET http://localhost:3000/profiles/5e3b625fd3562a69d9fe5372
+
+###
+
+POST http://localhost:3000/profiles
+Content-Type: application/json
+
+{
+    "firstName": "Rey",
+    "lastName": "Skywalker",
+    "graduationDate": "05/1/2019",
+    "jobTitle": "Jedi",
+    "companyName": "Rise of the Skywalker",
+    "keySkills": "Balance",
+    "gitHub": "",
+    "linkedIn": "",
+    "twitter": "",
+    "photo": "https://pm1.narvii.com/6697/16a71a70bb5e7748ebd21903a7f0be238131cac5_00.jpg"
+}
+
+###
+DELETE http://localhost:3000/profiles/5e3b605dd3562a69d9fe536f
+
+###
+PATCH  http://localhost:3000/profiles/5e3b69a9ce724f6a87497630
+Content-Type: application/json
+
+{
+    "firstName": "Rey",
+    "lastName": "Skywalker"
+}
