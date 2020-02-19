@@ -5,7 +5,7 @@ const profileSchema = new mongoose.Schema({
         type: String,
         required: true,
         minlength: 2,
-        maxlenght: 15
+        maxlength: 15
     },
 
     lastName: {
@@ -30,7 +30,7 @@ const profileSchema = new mongoose.Schema({
 
     keySkills: {
         type: String,
-        required: true
+        // required: true
     },
 
     gitHub: {

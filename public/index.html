@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Profile</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <form>
+        <label>First Name: </label><input type="text" id="firstName"/>
+        <br>
+        <labe>Last Name: </labe><input type="text" id="lastName"/>
+        <br>
+        <label>Graduation Date: </label><input type="text" id="graduationDate"/>
+        <br>
+        <label>Job Title: </label><input type="text" id="jobTitle"/>
+        <br>
+        <label>Company Name: </label><input type="text" id="companyName"/>
+        <br>
+        <label>Key Skills: </label><input type="text" id="keySkills"/>
+        <br>
+        <label>GitHub: </label><input type="text" id="gitHub"/>
+        <br>
+        <label>LinkedIn: </label><input type="text" id="linkedIn"/>
+        <br>
+        <label>Twitter: </label><input type="text" id="twitter"/>
+        <br>
+        <label>Photo: </label><input type="text" id="photo"/>
+
+        <button type="button" id="postProfile" onClick="sendData">Enter</button>
+
+        <br>
+       <!-- <button type="button" id="profileButton">Click</button> -->
+        <br>
+        <div id="text1"></div>
+        <div id="text2"></div>
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>

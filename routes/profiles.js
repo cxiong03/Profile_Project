@@ -32,6 +32,8 @@ router.post('/', async (req, res) => {
         photo: req.body.photo
     })
 
+    console.log(req.body)
+
     try {
         const newProfile = await profile.save()
         res.status(201).json(newProfile)
