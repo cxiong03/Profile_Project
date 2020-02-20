@@ -1,4 +1,4 @@
-const getBtn = document.getElementById('profileButton');
+const getBtn = document.getElementById('getProfile');
 const postBtn = document.getElementById('postProfile');
 const firstName = document.getElementById("firstName").value
 const lastName = document.getElementById("lastName").value
@@ -37,6 +37,7 @@ const getData = () => {
    });
 };
 getData();
+
 const sendData = () => {
 
     const firstName = document.getElementById("firstName").value
@@ -53,6 +54,6 @@ const sendData = () => {
     });
 };
 
-
-// getBtn.addEventListener('click', getData);
+getBtn.addEventListener('click', getData);
 postBtn.addEventListener('click', sendData);
+// document.getElementById('text1').innerText= firstName;
