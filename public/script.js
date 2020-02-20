@@ -36,7 +36,7 @@ const getData = () => {
        console.log(responseData);
    });
 };
-// getData();
+getData();
 const sendData = () => {
 
     const firstName = document.getElementById("firstName").value
